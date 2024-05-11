@@ -554,6 +554,69 @@ video {
   --tw-contain-style:  ;
 }
 
+.ml-8 {
+  margin-left: 2rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.w-32 {
+  width: 8rem;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.bg-\[url\(\'https\:\/\/tesla-cdn\.thron\.com\/delivery\/public\/image\/tesla\/e90a341e-f9ca-4aa1-8eab-94afea118786\/bvlatuR\/std\/2880x1800\/M3-Homepage-D\'\)\] {
+  background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/e90a341e-f9ca-4aa1-8eab-94afea118786/bvlatuR/std/2880x1800/M3-Homepage-D');
+}
+
+.bg-\[url\(\'https\:\/\/digitalassets\.tesla\.com\/tesla-contents\/image\/upload\/f_auto\2c q_auto\/Homepage-Model-Y-Desktop-Global\.png\'\)\] {
+  background-image: url('https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-Y-Desktop-Global.png');
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-center {
+  background-position: center;
+}
+
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.pt-5 {
+  padding-top: 1.25rem;
+}
+
 h1{
   font-size: 20px;
+}
+
+.hover\:rounded-full:hover {
+  border-radius: 9999px;
+}
+
+.hover\:bg-slate-300:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(203 213 225 / var(--tw-bg-opacity));
 }
