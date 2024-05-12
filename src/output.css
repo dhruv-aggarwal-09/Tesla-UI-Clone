@@ -590,6 +590,10 @@ video {
   margin-right: 0.5rem;
 }
 
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -684,6 +688,16 @@ video {
   background-color: rgb(31 41 55 / var(--tw-bg-opacity));
 }
 
+.bg-slate-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(30 41 59 / var(--tw-bg-opacity));
+}
+
+.bg-slate-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(226 232 240 / var(--tw-bg-opacity));
+}
+
 .bg-\[url\(\'https\:\/\/digitalassets\.tesla\.com\/tesla-contents\/image\/upload\/f_auto\2c q_auto\/Homepage-Model-Y-Desktop-Global\.png\'\)\] {
   background-image: url('https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-Y-Desktop-Global.png');
 }
@@ -749,6 +763,11 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-gray-900 {
+  --tw-text-opacity: 1;
+  color: rgb(17 24 39 / var(--tw-text-opacity));
+}
+
 .underline {
   text-decoration-line: underline;
 }
@@ -775,6 +794,10 @@ h1{
 }
 
 @media (min-width: 768px) {
+  .md\:mt-0 {
+    margin-top: 0px;
+  }
+
   .md\:w-60 {
     width: 15rem;
   }
