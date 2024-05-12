@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-h1{
-    font-size: 20px;
+@font-face{
+    font-family: "Gotham Book";
+    src: url(../public/GothamBook.ttf);
+}
+
+*{
+    font-family: "Gotham Book", sans-serif;
+}
+@layer components{
+    .link{
+        @apply cursor-pointer font-semibold
+    }
 }
